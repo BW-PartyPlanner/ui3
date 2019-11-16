@@ -1,0 +1,187 @@
+.button {
+  background-color: red;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  background-color: black;
+}
+.button-large {
+  background-color: red;
+  font-size: 24px;
+  padding: 14px 40px;
+  border-radius: 12px;
+  border: 2px solid black;
+}
+p {
+  color: white;
+}
+.background-content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.background-content h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Quicksand";
+  background: green;
+  padding: 10px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+.background-content .homeVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.background-content .home-picture {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  color: red;
+  text-decoration: none;
+}
+p {
+  color: white;
+  text-align: end;
+}
