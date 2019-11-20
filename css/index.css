@@ -141,7 +141,7 @@ html {
   top: 0;
   bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   overflow: hidden;
 }
 .homeVideo video {
@@ -158,9 +158,6 @@ html {
   width: 100%;
 }
 .intro-text {
-  position: relative;
-  top: 100%;
-  left: 35%;
   text-align: center;
 }
 .intro-text h2 {
@@ -181,18 +178,18 @@ html {
   list-style: none;
   margin: 10px;
 }
-.Menu li {
+.Menu .Menu li {
   display: flex;
   margin: 0 5px;
 }
-.Menu li a {
+.Menu .Menu li di .Menu li a {
   text-decoration: none;
-  color: #172a3a;
+  color: #deeef4;
   padding: 5px 10px;
   font-size: 20px;
 }
-.Menu li a a:hover {
-  color: #deeef4;
+.Menu .Menu li di .Menu li a .Menu li a:hover {
+  background-color: #172a3a;
 }
 p {
   color: white;

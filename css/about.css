@@ -72,8 +72,6 @@ header{
 }
 .top-tiles .text-container{
     width: 20%;
-    /* padding: 0;
-    padding-bottom: 0; */
     justify-content: center;
 }
 .bottom-tiles{
