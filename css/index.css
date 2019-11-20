@@ -158,6 +158,9 @@ html {
   width: 100%;
 }
 .intro-text {
+  position: relative;
+  top: 100%;
+  left: 35%;
   text-align: center;
 }
 .intro-text h2 {
@@ -189,7 +192,7 @@ html {
   font-size: 20px;
 }
 a:hover {
-  background-color: #172a3a;
+  color: #172a3a;
 }
 p {
   color: white;
