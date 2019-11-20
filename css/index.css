@@ -158,9 +158,6 @@ html {
   width: 100%;
 }
 .intro-text {
-  position: relative;
-  top: 100%;
-  left: 35%;
   text-align: center;
 }
 .intro-text h2 {
@@ -187,12 +184,12 @@ html {
 }
 .Menu li a {
   text-decoration: none;
-  color: #172a3a;
+  color: #deeef4;
   padding: 5px 10px;
   font-size: 20px;
 }
-.Menu li a a:hover {
-  color: #deeef4;
+a:hover {
+  background-color: #172a3a;
 }
 p {
   color: white;
